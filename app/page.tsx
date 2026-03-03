@@ -14,6 +14,7 @@ import { ContactSection } from "@/components/portfolio/contact-section"
 import { Particles, Footer } from "@/components/portfolio/particles"
 import { GallerySection } from "@/components/portfolio/GallerySection"
 import { TestimonialsSection } from "@/components/portfolio/TestimonialsSection"
+import { ChatbotSection } from "@/components/portfolio/ChatbotSection"
 export default function PortfolioPage() {
   const [loaded, setLoaded] = useState(false)
   const [scrollY, setScrollY] = useState(0)
@@ -110,6 +111,7 @@ export default function PortfolioPage() {
 
         {/* Contact */}
         <ContactSection />
+        <ChatbotSection />
       </div>
 
       {/* Footer */}

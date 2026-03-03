@@ -82,7 +82,7 @@ export function Footer() {
           {"B.Tech CSE \u00B7 Howrah, India"}
         </div>
         <div className="font-[var(--font-jetbrains)] text-[0.55rem] text-white/15 tracking-[1.5px]">
-          {"Built with Next.js & React \u00B7 2026"}
+          {"Built with Love \u00B7 2026"}
         </div>
       </div>
     </footer>

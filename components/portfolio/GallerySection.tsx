@@ -2,12 +2,12 @@
 import { useEffect, useRef, useState } from "react"
 
 const GALLERY_ITEMS = [
-  { src: "1.jpg", caption: "SIH 2025 Grand Finals", tag: "Hackathon" },
+  { src: "1.jpg", caption: "SIH 2025 Grand Finals,GIET Gunupur", tag: "Hackathon" },
   { src: "2.jpg", caption: "InCubES 2025 Investor Summit", tag: "Venture" },
   { src: "3.jpg", caption: "Prayas 2024 TIB Hackathon", tag: "Mechanical Project on Energy & Sustainability" },
-  { src: "4.jpg", caption: "Research Paper Conference", tag: "Work" },
-  { src: "5.jpg", caption: "Dev Setup", tag: "Life" },
-  { src: "6.jpg", caption: "Newtown Campus", tag: "College" },
+  { src: "4.jpg", caption: "AISC 2024 Research Paper Conference", tag: "Work" },
+  { src: "5.jpg", caption: "BPPIMT Business Meet Winner", tag: "Life" },
+  { src: "6.jpg", caption: "Exuberance College Sports Trophy", tag: "College" },
 ]
 
 export function GallerySection() {
