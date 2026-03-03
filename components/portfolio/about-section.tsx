@@ -1,7 +1,6 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-
 const VENTURES = ["Techacon Solutions", "Khaww", "BECS", "JM Biotech", "Indiserve", "BazaarBot"]
 const CHIPS = ["Howrah, West Bengal", "tathagata456@gmail.com", "+91 8167014019", "tathagatasengupta.in"]
 
@@ -29,7 +28,7 @@ export function AboutSection({ scrollY }: { scrollY: number }) {
             Who I <span className="text-[#e63946]">Am</span>
           </h2>
         </div>
-
+       
         <div className="grid grid-cols-1 md:grid-cols-[360px_1fr] gap-10 md:gap-16 mt-12 items-start">
           {/* Portrait */}
           <div

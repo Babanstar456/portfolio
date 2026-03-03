@@ -12,7 +12,8 @@ import { ProjectsSection } from "@/components/portfolio/projects-section"
 import { SkillsSection } from "@/components/portfolio/skills-section"
 import { ContactSection } from "@/components/portfolio/contact-section"
 import { Particles, Footer } from "@/components/portfolio/particles"
-
+import { GallerySection } from "@/components/portfolio/GallerySection"
+import { TestimonialsSection } from "@/components/portfolio/TestimonialsSection"
 export default function PortfolioPage() {
   const [loaded, setLoaded] = useState(false)
   const [scrollY, setScrollY] = useState(0)
@@ -80,6 +81,7 @@ export default function PortfolioPage() {
 
         {/* Divider */}
         <div className="h-[1px] bg-[#1a1a2e]/8 mx-[5%] md:mx-[7%] relative z-10" />
+        <GallerySection />
 
         {/* Orbit (Skills Visual) */}
         <OrbitSection />
@@ -95,6 +97,7 @@ export default function PortfolioPage() {
 
         {/* Projects */}
         <ProjectsSection />
+        <TestimonialsSection />
 
         {/* Divider */}
         <div className="h-[1px] bg-[#1a1a2e]/8 mx-[5%] md:mx-[7%] relative z-10" />
